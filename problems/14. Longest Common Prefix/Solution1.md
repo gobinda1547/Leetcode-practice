@@ -24,7 +24,7 @@ class Solution {
 
 
 ### Time complexity
-O(n^2)
+O(mn) - where m is the minimum prefix length and n is the size of the input array.
 
 
 ### Space complexity
