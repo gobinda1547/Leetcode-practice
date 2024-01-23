@@ -1,5 +1,5 @@
 ### Problem name
-1. Two Sum
+[1. Two Sum](https://leetcode.com/problems/two-sum/description/)
 
 
 ### Solution approch
@@ -8,12 +8,6 @@ Since the target is already provided as an input. So if we loop through each num
 
 ### Code
 ```java
-/**
-* It is possible that this function is being invoked when the activity or fragment
-* is destroyed already, In that case the binding object will be null. So we have to
-* handle this using try-catch block. Also it's a good practice to destroy previous
-* native ad while showing the new one to ignore memory leak.
-*/
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> hashMap = new HashMap();
