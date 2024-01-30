@@ -49,3 +49,34 @@ To calculate 6 number, we must need 5 operator, so the input length is 11 where 
 To calculate 7 number, we must need 6 operator, so the input length is 13 where 7 are numbers.
 So we can say that approximately there will be (n/2) numbers, that means In worst case our stack can have (n/2) numbers.
 Which is ultimately O(n) space complexity.
+
+
+## Solution 2
+Is similar to solution 1 - but note that we can solve the problem without using 2 extra variable (first & second). Below is the code.
+
+
+
+#### Code
+```java
+class Solution {
+    public int evalRPN(String[] tokens) {
+        Stack<Integer> stack = new Stack();
+        for (int i=0; i<tokens.length; i++) {
+            String t = tokens[i];
+
+            if (t.equals("+")) {
+                stack.add (stack.pop() + stack.pop());
+            } else if (t.equals("-")) {
+                stack.add (-stack.pop() + stack.pop());
+            } else if (t.equals("*")) {
+                stack.add (stack.pop() * stack.pop());
+            }  else if (t.equals("/")) {
+                stack.add ((int)((1.0/stack.pop()) * stack.pop()));
+            } else {
+                stack.add(Integer.parseInt(t));
+            }
+        }
+        return stack.pop();
+    }
+}
+```
