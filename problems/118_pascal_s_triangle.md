@@ -1,12 +1,12 @@
-### Problem name
+## Problem name
 [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/)
 
 
-### Solution approch
+## Solution 1
 Brute force solution. We will add the first row for free. Then we will iterate from the next row. And for each item we will try to fetch the previous row's nth and (n-1)th value. Thus there sum will be the new value. Now there could be situation like previous row may not have the nth or (n-1)th position. In that case we have to handle them so that we are not getting any ArrayIndexOutOfBound exception.
 
 
-### Code
+#### Code
 ```java
 class Solution {
 
@@ -45,9 +45,9 @@ class Solution {
 ```
 
 
-### Time complexity
+#### Time complexity
 for each p'th row we are looping from 0 to p, and since we have n number of row. So the time complexity is 1+2+3+...+n which is ultimately O(n^2).
 
 
-### Space complexity
+#### Space complexity
 In each iteration we are adding consecutive values so the space complexity also O(n^2).
