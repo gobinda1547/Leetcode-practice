@@ -1,12 +1,12 @@
-### Problem name
+## Problem name
 [929. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/description/)
 
 
-### Solution approch
+## Solution 1
 We have to write such a hash function which will return the same hashValue for each unique email address. One way we can easily generate this by removing dots(.) and plus(+) which is described in the problem description. And then these hash values will be stored in the HashSet so that finally we can count - how many unique addresses are there. Now we can generate the hash value by using string class provided api and also by traversing each character by ourselves. Both the solutions are below.
 
 
-### Code 1
+#### Code 1
 ```java
 class Solution {
     public int numUniqueEmails(String[] emails) {
@@ -34,7 +34,7 @@ class Solution {
 }
 ```
 
-### Code 2
+#### Code 2
 ```java
 class Solution {
     public int numUniqueEmails(String[] emails) {
@@ -69,9 +69,9 @@ class Solution {
 ```
 
 
-### Time complexity
+#### Time complexity
 Both the solution has time complexity of O(mn) - where m is the maximum length possible for a single email and n is the total number of input emails. Though in the first solution generateHashFun will provide complexity of 5m~6m but which is ultimately O(m) - and that is why the final time complexity is O(mn)
 
 
-### Space complexity
+#### Space complexity
 The hashSet we used may have all the input emails in it - in worst case. So the complexity is O(n) - where n is the number of input emails.

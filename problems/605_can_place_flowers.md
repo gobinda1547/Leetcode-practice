@@ -1,12 +1,12 @@
-### Problem name
+## Problem name
 [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/)
 
 
-### Solution approch
+## Solution 1
 We will traverse the entire array once. while traversing for each position we can get 0 and 1. Now we will track isLeftSide okay or not for each index by a boolean variable. When traversing if we get a 1 - then simply for the next position isLeftSize will be not okay so we will mark it as false and if we get a 0 then again we can have 2 case whether left side is okay or not. If left side is okay then we calculate the right side okay not. If both side okay then we will increase our counter. On the other hand if left side is not okay then for the next position left side is going to be okay, so we will set isLeftOkay = true and continue traversing the next position. Thus we will have the counter finally.
 
 
-### Code
+#### Code
 ```java
 class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
@@ -44,9 +44,9 @@ class Solution {
 ```
 
 
-### Time complexity
+#### Time complexity
 O(n) - since we loop though once in the entire array.
 
 
-### Space complexity
+#### Space complexity
 Constant space used so O(1).
