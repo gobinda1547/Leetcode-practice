@@ -109,7 +109,7 @@ Just keeping records.
 
 ## Leetcode Practice on Stack 
 - [150. Evaluate Reverse Polish Notation](problems/150_evaluate_reverse_polish_notation.md)
-- [problemName](problems/fileName.md)
+- [739. Daily Temperatures](problems/739_daily_temperatures.md)
 - [problemName](problems/fileName.md)
 - [problemName](problems/fileName.md)
 - [problemName](problems/fileName.md)
