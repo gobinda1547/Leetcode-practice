@@ -22,12 +22,14 @@ Just keeping records.
 
 
 ## Java Common APIs
-- String
-- Map
-- Stack
-- Queue
-- Linked list
-- Sorting
+- [String](java_common_apis/string.md)
+- [Map](java_common_apis/map.md)
+- [Stack](java_common_apis/stack.md)
+- [Queue](java_common_apis/queue.md)
+- [Linked list](java_common_apis/linked_list.md)
+- [Collections](java_common_apis/collections.md)
+- [Arrays](java_common_apis/arrays.md)
+- [Comparator](java_common_apis/comparator.md)
 
 
 ## Algorithms
