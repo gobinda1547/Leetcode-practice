@@ -23,7 +23,7 @@ Just keeping records.
 
 ## Java Common APIs
 - [String](java_common_apis/string.md)
-- [Map](java_common_apis/map.md)
+- [Hash Map](java_common_apis/hash_map.md)
 - [Stack](java_common_apis/stack.md)
 - [Queue](java_common_apis/queue.md)
 - [Linked list](java_common_apis/linked_list.md)
