@@ -24,7 +24,7 @@ class Student {
 }
 ```
 
-#### To sort student list in Ascending order based on ID value
+## To sort student list in Ascending order based on ID value
 ```java
 class AscendingSortById implements Comparator<Student> {
 	public int compare(Student student1, Student student2) {
@@ -33,7 +33,7 @@ class AscendingSortById implements Comparator<Student> {
 }
 ```
 
-#### To sort student list in Descending order based on ID value
+## To sort student list in Descending order based on ID value
 ```java
 class DescendingSortById implements Comparator<Student> {
 	public int compare(Student student1, Student student2) {
@@ -42,7 +42,7 @@ class DescendingSortById implements Comparator<Student> {
 }
 ```
 
-#### To sort student list in Ascending order based on AGE value
+## To sort student list in Ascending order based on AGE value
 ```java
 class AscendingSortByAge implements Comparator<Student> {
 	public int compare(Student student1, Student student2) {
@@ -51,7 +51,7 @@ class AscendingSortByAge implements Comparator<Student> {
 }
 ```
 
-#### To sort student list in Descending order based on AGE value
+## To sort student list in Descending order based on AGE value
 ```java
 class DescendingSortByAge implements Comparator<Student> {
 	public int compare(Student student1, Student student2) {
@@ -62,7 +62,7 @@ class DescendingSortByAge implements Comparator<Student> {
 ```
 
 
-#### Full code
+## Full code
 ```java
 public class Main {
 
@@ -100,7 +100,7 @@ public class Main {
 ```
 
 
-#### Full output
+## Full output
 ```java
 raw input list
 [name = bijoy, id = 3, age = 20]
