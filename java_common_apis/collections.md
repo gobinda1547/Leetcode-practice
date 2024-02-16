@@ -1,7 +1,6 @@
 ## java.util.Collections
 
-#### To sort a list of items one should use Collections.sort() API. 
-#### To sort an array of any type you can use Arrays.sort() API.
+#### Collections class works with List of any type. It doesn't work with Array. To work with Array you should use Arrays API. Like to sort a list of items you have to use Collections.sort() API. On the other hand, to sort an array of any type you can use Arrays.sort() API.
 
 ## Collections.sort(List list)
 
