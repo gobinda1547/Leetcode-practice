@@ -1,9 +1,11 @@
 ## java.util.Collections
 
+#### To sort a list of items one should use Collections.sort() API. 
+#### To sort an array of any type you can use Arrays.sort() API.
 
 ## Collections.sort(List list)
 
-**sort(List list)**: Sorts the specified list using the natural ordering of its elements, offering **O(n log n)** complexity with various sorting algorithms depending on the data type. Useful for general-purpose sorting of list contents.
+This API Sorts the specified list with **O(n log n)** complexity. If list item type is a **custom user defined class** - then you must have to use **Collections.sort(List list, Comparator comparator)** API. For normal wrapper classes like **Integer**, **Double**, **Float** classes - you can use this API.
 
 ```java
 public static void main(String[] args) {
@@ -41,7 +43,7 @@ public static void main(String[] args) {
 
 ## Collections.sort(List list, Comparator comparator)
 
-**sort(List list, Comparator comparator)**: Sorts the specified list using the provided comparator for defining custom sorting criteria, this function also uses **O(n log n)** complexity. Versatile for sorting based on specific logic.
+This API Sorts the specified list with **O(n log n)** complexity.
 
 ```java
 static class Student {
@@ -91,7 +93,7 @@ After sorting : [Age:10(1), Age:10(3), Age:10(5), Age:8(2), Age:6(4)]
 
 ## Collections.reverse(List list)
 
-**reverse(List list)**: Reverses the order of elements in the specified list, providing **O(n)** time complexity. Simple and efficient for changing the order of list elements.
+This API reverses the order of elements in the list by **O(n)** time complexity. It has nothing to worry about the **Comparator**. You can use this method for any data type (**Integer**, **Double**, **Float**, **Custom defined class**, etc).
 
 ```java
 public static void main(String[] args) {
