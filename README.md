@@ -26,7 +26,6 @@ Just keeping records.
 - [Hash Map](java_common_apis/hash_map.md)
 - [Stack](java_common_apis/stack.md)
 - [Queue](java_common_apis/queue.md)
-- [Linked list](java_common_apis/linked_list.md)
 - [Collections](java_common_apis/collections.md)
 - [Arrays](java_common_apis/arrays.md)
 - [Comparator](java_common_apis/comparator.md)
