@@ -1,6 +1,6 @@
 ## java.util.Queue
 
-#### add() & poll() & peek()
+## add() & poll() & peek()
 
 All these APIS have **O(1)** time complexity.
 
@@ -33,7 +33,7 @@ Queue at this point 3 : [7, 4]
 ```
 
 
-#### size() & isEmpty() & clear()
+## size() & isEmpty() & clear()
 
 **size()** & **isEmpty()** have a complexity of **O(1)** But **clear()** API has **O(n)** complexity.
 

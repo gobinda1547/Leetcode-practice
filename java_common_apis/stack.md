@@ -1,6 +1,6 @@
 ## java.util.Stack
 
-#### push() & pop() & peek()
+## push() & pop() & peek()
 
 All these APIS have **O(1)** time complexity.
 
@@ -33,7 +33,7 @@ Stack at this point 3 : [5, 3]
 ```
 
 
-#### size() & isEmpty() & clear()
+## size() & isEmpty() & clear()
 
 **size()** & **isEmpty()** have a complexity of **O(1)** But **clear()** API has **O(n)** complexity.
 
