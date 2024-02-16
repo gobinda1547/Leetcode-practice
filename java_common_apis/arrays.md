@@ -1,9 +1,11 @@
 ## java.util.Arrays
 
+#### As the name suggested, Arrays class works with Array of any type. It doesn't work with List. To work with List you should use Collections API. Like to sort a list of items you have to use Collections.sort() API. On the other hand, to sort an array of any type you can use Arrays.sort() API.
 
 ## Arrays.sort(T[] t)
 
-Have a complexity of **O(n log n)**
+Have a complexity of **O(n log n)**. By using **Arrays.sort()** you can sort **int[]**, **double[]**, **float[]**. To sort a custom defined class type you must have to use **Arrays.sort(T[] t, Comparator<T> comparator)** function. The only thing to remember is that if you declare the data type as primitive type like (int, dobule, float) data then you can't use **Arrays.asList()** function. In the below code, we have used the data type as **Integer[]** instead of **int[]** since we have to print the content and we are doing it by using **Arrays.asList()** function.
+
 
 ```java
 public static void main(String[] args) {
@@ -29,7 +31,7 @@ After sorting = [1, 2, 4, 7, 9]
 
 ## Arrays.sort(T[] t, Comparator comparator)
 
-Have a complexity of **O(n log n)**
+Have a complexity of **O(n log n)**. This function should be used to sort **custom defined class**.
 
 ```java
 static class Student {
